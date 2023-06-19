@@ -12,7 +12,9 @@ import { FooterComponent } from './views/footer/footer.component';
 import { CardComponent } from './views/card/card.component';
 import { LoginComponent } from './views/login/login.component';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { MinhacontaComponent } from './views/minhaconta/minhaconta.component';
+import { NoticiasComponent } from './views/noticias/noticias.component'
 
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import {MatToolbarModule} from '@angular/material/toolbar';
@@ -26,7 +28,9 @@ import { HttpClientModule } from '@angular/common/http'
     HeaderComponent,
     FooterComponent,
     CardComponent,
-    LoginComponent
+    LoginComponent,
+    MinhacontaComponent,
+    NoticiasComponent
   ],
 
   imports: [

@@ -12,33 +12,32 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #E9D204; font-family: Roboto; font-size: 20px; text-decoration: none; text-transform: uppercase">
+              <li class="nav-item">
+                <a routerLink="/contato" class="nav-link" href="#" aria-expanded="false" style="color: #E9D204; font-family: Roboto; font-size: 20px; text-decoration: none; text-transform: uppercase">
                   Contato
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Telefone</a></li>
-                  <li><a class="dropdown-item" href="#">Whatsapp</a></li>
-                  <li><a class="dropdown-item" href="#">E-mail</a></li>
-                </ul>
               </li>
-              </ul>
-          </div>
+
+              <li class="nav-item">
+                <a routerLink="/minhaconta" class="nav-link" href="#" aria-expanded="false" style="color: #E9D204; font-family: Roboto; font-size: 20px; text-decoration: none; text-transform: uppercase">
+                  Minha Conta
+                </a>
+               </li>
+
+              <li class="nav-item">
+                <a routerLink="/noticias" class="nav-link" href="#" aria-expanded="false" style="color: #E9D204; font-family: Roboto; font-size: 20px; text-decoration: none; text-transform: uppercase">
+                      Notícias
+                </a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
+              <button type="button" class="btn btn-warning">Pesquisa</button>
+            </form>
         </div>
-            </nav>
-
-    <!-- <div class="container-grid posicionamento-header">
-        <a href="#"><img src="../../../assets/Img/LOGO.svg" alt="Logo do site E-Players"></a>
-        <nav id="menu" class="menu">
-           
-            <a href="#">Contato</a> 
-            <a href="#">Minha Conta</a>
-            <a href="#">Notícias</a>
-
-        </nav>
-         <a href="#" onclick="mostrarMenu()"><img class="barras" src="img/bars.svg" alt="Menu de barras"></a> -->
-        <!--<a href="#" id="barras"><img class="barras" src="assets/img/bars.svg" alt="Menu de barras"></a> -->
-    <!-- </div>  -->
+      </div>
+    </nav>
 </header>
 
 
