@@ -1,4 +1,60 @@
 
+.jogos{
+    background-color: black;
+    height: 120px;
+}
+
+.jogos a{
+    color: #E9D204;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.posicionamento-jogos{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.banner_2{
+    display: flex;
+    height: 480px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-f1{
+    background-image: url(../../../assets/Img/banner-f1.jpg);
+}
+
+.conteudo-banner_2 h1{
+    color: #E9D204;
+    font-size: 50px;
+    font-family: Roboto;
+}
+
+.conteudo-banner_2 p{
+    color: #E9D204;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.conteudo-banner_2{
+    width: 780px;
+    justify-content: left;
+  text-justify: center;
+}
+
+
+
 /* 
 .posicao-texto {
     justify-content: flex-end;
